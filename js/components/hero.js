@@ -1,7 +1,7 @@
 /**
  * HERO — lee CONFIG.hero. Cambiar headline/subheadline/CTAs solo en config.js.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderHero = function (config) {
   const h = config.hero;
