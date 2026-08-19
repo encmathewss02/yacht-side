@@ -3,7 +3,7 @@
  * Para agregar una nueva zona, solo añade un objeto {name, coords}
  * en config.js — esta sección lo reflejará automáticamente.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderServiceArea = function (config) {
   const items = config.serviceAreas
