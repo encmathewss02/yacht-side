@@ -1,7 +1,7 @@
 /**
  * HEADER — lee CONFIG.business y CONFIG.contact. No contiene texto fijo.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderHeader = function (config) {
   const navLinks = [
