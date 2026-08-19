@@ -2,7 +2,7 @@
  * SERVICES — genera una tarjeta por cada objeto en CONFIG.services.
  * Para agregar/quitar un servicio, edita solo el arreglo en config.js.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 function serviceCard(service) {
   const icon = ICONS.service[service.icon] || ICONS.service.full;
