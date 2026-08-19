@@ -1,7 +1,7 @@
 /**
  * ABOUT — lee CONFIG.about.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderAbout = function (config) {
   const a = config.about;
