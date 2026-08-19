@@ -1,7 +1,7 @@
 /**
  * WHY CHOOSE US — lee CONFIG.whyChooseUs.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderWhyChooseUs = function (config) {
   const items = config.whyChooseUs
