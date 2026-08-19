@@ -1,7 +1,7 @@
 /**
  * FOOTER — lee CONFIG.business y CONFIG.contact.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderFooter = function (config) {
   const year = new Date().getFullYear();
