@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interior Yacht Cleaning | Puerto Rico</title>
+  <meta name="description" content="Specialized interior yacht cleaning in Puerto Rico." />
+
+  <!-- Tipografía: Fraunces (display), Inter (cuerpo), IBM Plex Mono (utilitaria) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Cada bloque es un contenedor vacío; su contenido lo inserta el
+       componente correspondiente en tiempo de carga (ver js/main.js).
+       El ORDEN de estos contenedores define el orden visual de la página. -->
+  <div id="app-header"></div>
+
+  <main>
+    <div id="app-hero"></div>
+    <div id="app-services"></div>
+    <div id="app-packages"></div>
+    <div id="app-why-us"></div>
+    <div id="app-how-it-works"></div>
+    <div id="app-service-area"></div>
+    <div id="app-about"></div>
+    <div id="app-gallery"></div>
+    <div id="app-quote"></div>
+  </main>
+
+  <div id="app-footer"></div>
+
+  <!-- 1. Configuración (editar aquí) -->
+  <script src="js/config.js"></script>
+
+  <!-- 2. Utilidades compartidas -->
+  <script src="js/icons.js"></script>
+
+  <!-- 3. Componentes (uno por sección, independientes entre sí) -->
+  <script src="js/components/header.js"></script>
+  <script src="js/components/hero.js"></script>
+  <script src="js/components/services.js"></script>
+  <script src="js/components/packages.js"></script>
+  <script src="js/components/whyChooseUs.js"></script>
+  <script src="js/components/howItWorks.js"></script>
+  <script src="js/components/serviceArea.js"></script>
+  <script src="js/components/about.js"></script>
+  <script src="js/components/gallery.js"></script>
+  <script src="js/components/quoteForm.js"></script>
+  <script src="js/components/footer.js"></script>
+
+  <!-- 4. Orquestador -->
+  <script src="js/main.js"></script>
+</body>
+</html>
