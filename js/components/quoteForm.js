@@ -9,7 +9,7 @@
  * adelante (Formspree, EmailJS, Netlify Forms, etc.), reemplaza la función
  * handleQuoteFormSubmit() más abajo — el resto del formulario no cambia.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderQuoteForm = function (config) {
   const qf = config.quoteForm;
