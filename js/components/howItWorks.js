@@ -2,7 +2,7 @@
  * HOW IT WORKS — lee CONFIG.howItWorks. Presentado como entradas de
  * bitácora (log), coherente con el motivo visual del sitio.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderHowItWorks = function (config) {
   const entries = config.howItWorks
