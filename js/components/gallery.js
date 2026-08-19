@@ -3,7 +3,7 @@
  * fotos reales y, en el futuro, por un formato Before/After
  * (ver CONFIG.featureFlags.beforeAfterGallery).
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 Components.renderGallery = function (config) {
   const g = config.gallery;
