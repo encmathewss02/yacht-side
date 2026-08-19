@@ -4,7 +4,7 @@
  * respeta CONFIG.pricingMode. No hay ningún número de precio escrito
  * directamente en este archivo.
  */
-const Components = window.Components || {};
+var Components = window.Components || {};
 
 function packageCard(pkg) {
   const features = pkg.features
